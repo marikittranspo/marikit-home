@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <title>MarikitTranspo</title> 
+
+  <link rel="stylesheet" href="styles/design.css">
+  <link rel="stylesheet" href="styles/saved.css">
+
+  <head>
+    <meta charset="UTF8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <meta name ="viewport" content="width-device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+  </head>
+  
+  <body>
+    <h1 class="marikit">MarikitTranspo</h1>
+    <nav class="navbar"> 
+      <ul>
+        <li><a href="home.html"><img src="pictures/home.png">HOME</a></li>
+        <li><a href="jeepney.html"><img src="pictures/jeep.png">JEEP</a></li>
+        <li><a href="maps.html"><img src="pictures/maps.png">MAPS</a></li>
+        <li><a href="maps.html"><img src="pictures/save.png">SAVE</a></li>     
+      </ul>
+    </nav>
+
+    <h2 class="saved-header">Save your locations!</h2>
+    
+    <div class="button-container">
+      <form action="favorites.html">
+        <button class="location-item" onclick="saveLocation('favorites')">
+          <img src="pictures/favorites.png" class="icon">
+          <span>Favorites</span>
+          <span class="privacy">Private - 0 Places</span>
+        </button>
+      </form>
+      
+      
+      <button class="location-item" onclick="saveLocation('wantToGo')">
+        <img src="pictures/flag.png" class="icon">
+        <span>Want to go</span>
+        <span class="privacy">Private - 0 Places</span>
+      </button>
+      
+      <button class="location-item" onclick="saveLocation('starred')">
+        <img src="pictures/star.png" class="icon">
+        <span>Starred</span>
+        <span class="privacy">Private - 0 Places</span>
+      </button>
+      
+      <button class="location-item" onclick="saveLocation('addMore')">
+        <img src="pictures/more.png" class="icon">
+        <span>Add more</span>
+        <span class="privacy">Private - 0 Places</span>
+      </button>
+    </div>
+  </body>
+</html>
