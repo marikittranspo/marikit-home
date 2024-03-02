@@ -89,7 +89,7 @@ li a img {
   padding: var(--padding);
   border-radius: 20px;
   background: #f6f6f6;
-  width: 380px;
+  width: 340px;
   transition: box-shadow 0.25s;
 }
 
