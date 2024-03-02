@@ -1,0 +1,168 @@
+body {
+  background: linear-gradient(90deg, rgba(21,90,193,1) 35%, rgba(151,230,255,1) 100%);
+  margin: 0px;
+}
+
+main {
+  margin: 20px;
+}
+
+.marikit {
+  font-size: 35px;
+  text-align: center;
+  color:#C0F0F7;
+  font-weight: bold;
+  font-family: Verdana;
+  text-shadow: #0E1899 2px 1.5px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s ease-in-out; 
+  
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  background-color: #0B1623;
+  padding: 2px;
+  margin: none;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  font-family: Verdana;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-stroke: black 1px;
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a:hover {
+  background: rgb(21,90,193);
+  background: radial-gradient(circle, rgba(21,90,193,1) 0%, rgb(125, 158, 168) 100%);
+  border-radius: 30px;
+}
+
+.navbar li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+li a img {
+  width: 27px;
+  height: 25px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.search {
+  --padding: 10px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: var(--padding);
+  border-radius: 20px;
+  background: #f6f6f6;
+  width: 450px;
+  transition: box-shadow 0.25s;
+}
+
+.search:focus-within {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+}
+
+.search-input {
+  font-size: 16px;
+  font-family: Verdana;
+  color: #333333;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.search::placeholder {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.marikit {
+  font-size: 35px;
+  text-align: center;
+  color: #C0F0F7;
+  font-weight: bold;
+  font-family: Verdana;
+  text-shadow: #0E1899 2px 1.5px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: inline-block; /
+}
+
+.buttons button {
+  display: block; 
+  margin-bottom: 10px;
+}
+
+.route-history {
+  font-family: Verdana;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+.header {
+  background: rgb(126,201,245);
+  background: linear-gradient(90deg, rgba(126,201,245,1) 35%, rgba(57,87,237,1) 100%);
+  color: black;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: Verdana;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+.content {
+  background-color: white;
+  min-height: 100px; /* Adjust as needed */
+  padding: 20px;
+}
