@@ -17,7 +17,7 @@ main {
 }
 
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   transition: top 0.3s ease-in-out; 
@@ -48,12 +48,6 @@ main {
   display: block;
   text-align: center;
   text-decoration: none;
-}
-
-.sticky {
-  position: sticky;
-  top: none;
-  width: 100%;
 }
 
 .navbar a:hover {
