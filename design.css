@@ -17,7 +17,7 @@ main {
 }
 
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   transition: top 0.3s ease-in-out; 
@@ -27,7 +27,7 @@ main {
 .navbar ul {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style-type: none;
   background-color: #0B1623;
   padding: 2px;
