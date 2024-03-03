@@ -51,8 +51,8 @@ main {
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
+  position: sticky;
+  top: none;
   width: 100%;
 }
 
